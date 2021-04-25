@@ -20,5 +20,5 @@ func Titulo(urls ...string) <-chan string {
 		}(url)
 	}
 
-	return c
+	return c// imprimindo essa maravilha
 }
